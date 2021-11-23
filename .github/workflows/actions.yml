@@ -6,8 +6,8 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: groupo-cluster-1
   GKE_ZONE: asia-southeast1
-  DEPLOYMENT_NAME: groupo-logging-consumer
-  IMAGE: groupo-logging-consumer
+  DEPLOYMENT_NAME: groupo-consumer
+  IMAGE: groupo-consumer
 
 jobs:
   setup-build-publish-deploy:
