@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "groupo-shared-service": "https://github.com/2110521-2564-1-SW-ARCH/Groupo-shared-services.git"
+    "groupo-shared-service": "https://github.com/2110521-2564-1-SW-ARCH/Groupo-shared-services.git",
+    "mongodb": "^4.1.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
